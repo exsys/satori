@@ -1,0 +1,58 @@
+.pentagon {
+	position: absolute;
+	width: 157.5px;
+	height: 150px;
+	background-color: #C3C3C7;
+	clip-path: polygon( 50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%);
+    filter: drop-shadow(0 0 10px #000); /* clip-path is denying filter, need to encapsule pentagon with drop-shadow */
+}
+
+.ray {
+    background-image: url("/images/ray.png");
+    background-position: 51% 17%;
+    transform: rotate(180deg);
+    bottom: -15%;
+    left: -12%;
+}
+
+.reflection {
+    background-image: url("/images/reflection.jpg");
+    background-position: 50% 8%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 15%);
+}
+
+.clarity {
+    background-image: url("/images/clarity.jpg");
+    background-position: 90% 22%;
+    transform: rotate(180deg);
+    bottom: -15%;
+    right: -12%;
+}
+
+@media (min-width: 640px) {
+    .ray {
+        background-image: url("/images/ray.jpg");
+        background-position: 47% 92%;
+        transform: rotate(180deg);
+        bottom: -20%;
+        left: -6px;
+    }
+    
+    .reflection {
+        background-image: url("/images/reflection.jpg");
+        background-position: 50% 8%;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 15%);
+    }
+    
+    .clarity {
+        background-image: url("/images/clarity.jpg");
+        background-position: 90% 22%;
+        transform: rotate(180deg);
+        bottom: -20%;
+        right: -6px;
+    }
+}
