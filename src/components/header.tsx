@@ -24,8 +24,8 @@ export default function Header() {
 
                     <div className={`${active ? styles.active : ""} ${styles.menu} fixed w-screen h-screen inset-0 bg-black`}>
                         <nav className="flex flex-col gap-8 text-lg">
-                            <Link href={"/"}>Home</Link>
-                            <Link href={"/"}>About</Link>
+                            <Link href={"https://www.exsys.me/"} target="_blank">Home</Link>
+                            <Link href={"https://www.exsys.me/"} target="_blank">About</Link>
                             <Link href={"https://www.exsys.me/"} target="_blank">Contact</Link>
                         </nav>
                     </div>
@@ -34,8 +34,8 @@ export default function Header() {
                 {/** non-mobile navbar */}
                 <div className="hidden sm:flex">
                     <nav className="flex gap-10 text-lg">
-                        <Link href={"/"} className="hover:text-slate-400">Home</Link>
-                        <Link href={"/"} className="hover:text-slate-400">About</Link>
+                        <Link href={"https://www.exsys.me/"} target="_blank" className="hover:text-slate-400">Home</Link>
+                        <Link href={"https://www.exsys.me/"} target="_blank" className="hover:text-slate-400">About</Link>
                         <Link href={"https://www.exsys.me/"} target="_blank" className="hover:text-slate-400">Contact</Link>
                     </nav>
                 </div>
