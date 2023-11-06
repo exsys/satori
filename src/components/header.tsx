@@ -26,7 +26,7 @@ export default function Header() {
                         <nav className="flex flex-col gap-8 text-lg">
                             <Link href={"/"}>Home</Link>
                             <Link href={"/"}>About</Link>
-                            <Link href={"/"}>Contact</Link>
+                            <Link href={"https://www.exsys.me/"} target="_blank">Contact</Link>
                         </nav>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ export default function Header() {
                     <nav className="flex gap-10 text-lg">
                         <Link href={"/"} className="hover:text-slate-400">Home</Link>
                         <Link href={"/"} className="hover:text-slate-400">About</Link>
-                        <Link href={"/"} className="hover:text-slate-400">Contact</Link>
+                        <Link href={"https://www.exsys.me/"} target="_blank" className="hover:text-slate-400">Contact</Link>
                     </nav>
                 </div>
             </div>

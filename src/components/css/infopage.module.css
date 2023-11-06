@@ -8,11 +8,15 @@
 }
 
 .ray {
-    background-image: url("/images/ray.png");
-    background-position: 51% 17%;
+    background-image: url("/images/ray.jpg");
+    background-position: 54% 6%;
     transform: rotate(180deg);
     bottom: -15%;
     left: -12%;
+}
+
+.anti-rotation {
+    transform: rotate(360deg);
 }
 
 .reflection {
@@ -34,7 +38,7 @@
 @media (min-width: 640px) {
     .ray {
         background-image: url("/images/ray.jpg");
-        background-position: 47% 92%;
+        background-position: 54% 6%;
         transform: rotate(180deg);
         bottom: -20%;
         left: -6px;
