@@ -25,7 +25,7 @@ export default function InfoPage() {
                         data-aos="zoom-in" data-aos-delay="200" data-aos-duration="900">
                         <img src="/logos/logo-gray.png" width={120} alt="logo" className='mb-4' />
                         <h2 className={`${azonix.className} text-5xl md:text-6xl tracking-[0.5em] text-[#C3C3C7] ml-4`}>
-                            Satori
+                            Icarus
                         </h2>
                     </div>
                 </div>

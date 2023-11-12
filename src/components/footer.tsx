@@ -66,7 +66,7 @@ export default function Footer() {
                         </div>
                     </nav>
                 </div>
-                <div>© Satori {currentYear} All rights reserved</div>
+                <div>© Icarus {currentYear} All rights reserved</div>
             </div>
         </footer>
     )

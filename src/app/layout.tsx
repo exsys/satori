@@ -7,7 +7,7 @@ const poppins = Poppins({ subsets: ['latin'], weight: ["100", "200", "300", "400
 const azonix = localFont({ src: "../assets/fonts/Azonix.otf" });
 
 export const metadata: Metadata = {
-  title: 'Satori | Perfect Analytics',
+  title: 'Icarus | Perfect Analytics',
   description: 'This is a portfolio project by the full stack developer exsys',
 }
 
